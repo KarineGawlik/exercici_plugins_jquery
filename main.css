@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding-top: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header > .container { /*usa > para selecionar um filho direto*/
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 16px;
+    display: none;
+}
+nav li {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+   display: flex; 
+}
+
+#sobre-a-loja img {
+    max-width: 300px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+    text-align: justify;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-produtos li img {
+    max-width: 100%;
+}
+
+.lista-produtos {
+    flex-wrap: wrap;
+}
+
+.lista-produtos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-produtos li h3 {
+    margin: 8px 0px;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+button { 
+    width: 50%;
+    margin-top: 8px;
+    padding: 8px 0;
+    border: none;
+    background-color: #ccc;
+    color: rgb(69, 69, 69);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#contato {
+    background-color: #ccc;
+}
+
+#redes-sociais img {
+    width: 40px;
+    margin: 10px;
+}
+ 
+#redes-sociais li {
+    list-style: none;
+    margin-left: 16px;
+    display: flex;
+}
+
+#redes-sociais li p {
+    color: black;
+    font-weight: bold;
+}
+
+#contato li img {
+    width: 40px;
+    margin: 16px;
+    margin-bottom: 10pxs;
+
+}
+
+#contato li {
+    list-style: none;
+}
+
+#contato li p {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    padding: 16px 0;
+    align-items: center;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 420px;
+}
